@@ -1,0 +1,22 @@
+css由两部分构成：选择器和声明 如，h1 {color:red;}
+选择器：基础选择器和组合选择器
+基础选择器：标签选择器，类选择器: .red {} <p class="red">
+多类名：将相同的部分写在一起，class标签中用空格隔开
+id选择器：#           通配符选择器：*，可选择所有标签
+字体属性：字体：font-family  多个字体用,隔开
+        大小:font-size
+        粗细：font-weight
+        样式：font-style 倾斜或竖直
+复合属性，font {font: style weight size family
+
+文本属性：color,rgb
+        对齐：text-align: right,left,concert
+        装饰文本：text-decoration;none 默认，undeerline 下划线，overline 上划线，line-through 删除线
+                   缩进文本：text-indent: 10xp/2em;     em-一个文字大小
+                  行间距：line-height:25px;
+行内样式：<p style="color: red:;">  外部样式：新建一个css文件，<link rel="stylesheet" href="css文件路径">
+后代选择器；目标标签为子代标签 如<ol> <li>  css： ol li {}
+子代选择器：为同一标签的子代，但优先选择第一个 元素一>元素二
+并集选择器: 多个标签同时选择，元素一，元素二 {}
+链接伪类选择器: a:link 选择未访问的链接     a:visited 选择以访问的链接  a:hover 选择鼠标所经过的链接 a:active 鼠标点击的链接
+:fouce伪类选择器 适用于表单 input：fouce
